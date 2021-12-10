@@ -1,0 +1,289 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,400&display=swap');
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: $body-bg;
+    // overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.my-card{
+    border-radius: 10px !important;
+}
+
+p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.5);
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    color: $just-white;
+}
+a, button{
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.art{
+    color:$purple-text-color ;
+}
+#header{
+    min-height: 100px;
+    .my_nav{
+        display: flex;
+        justify-content: space-between !important;
+        .my-btn{
+            background: $btn-primary-bg;
+        }
+    }
+    a, button{
+        color: white !important;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+section{
+    margin-bottom: 150px !important;
+}
+
+#home{
+    margin-top: 70px;
+    font-family: 'Poppins', sans-serif;
+    table{
+        margin-top: 30px;
+        width: 100%;
+        h3{
+            color: $just-white;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    
+    .my-btn{
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        transition: 0.5s;
+        &:hover{
+            background: $btn-primary-bg;
+        }
+    }
+    .mygallery{
+        width: 100%;
+        gap: 15px;
+        .block{
+            width: 30%;
+            gap:15px;
+        }
+    }
+}
+
+#about{
+    font-family: 'Poppins', sans-serif;
+    color: $just-white;
+    h1{
+        font-weight: bold;
+        max-width: max-content;
+    }
+    p{
+        max-width: max-content;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 180%;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    button{
+        text-align: left;
+        color: $just-white;
+        background: $btn-primary-bg;
+    }
+
+}
+
+#collection{
+  
+    .my-btn{
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        border-radius: 10px;
+        transition: 0.5s;
+        &:hover{
+            background: $btn-primary-bg;
+        }
+    }
+    .my-card{
+        border-radius: 10px;
+        margin-block: 10px;
+        .my-btn{
+            background: $btn-primary-bg;
+            border: 2px solid transparent !important;
+        }
+        transition: 0.3s;
+        background:$main-cards-bg;
+        $box-shadow: rgba(0, 0, 0, 0.25); 
+        .info-content{
+            h5{
+                color:  $just-white;
+            }
+            .right{
+                h5{
+                    margin-top: -16px;
+                }
+            }
+        }
+        &:hover{
+            background: $transparent-btn-bg;
+            .my-btn{
+                background: $transparent-btn-bg !important;
+                color: $purple-text-color !important;
+                border: 2px solid $btn-primary-bg;
+            }
+        }
+    }
+}
+
+#features{
+    margin-top: 100px;
+   
+    .my-card{
+        border-radius: 10px;
+        margin-block: 10px;
+        .my-btn{
+            background: $btn-primary-bg;
+            border: 2px solid transparent !important;
+        }
+        transition: 0.3s;
+        background:$main-cards-bg;
+        $box-shadow: rgba(0, 0, 0, 0.25); 
+        .info-content{
+            h5{
+                color:  $just-white;
+            }
+            .right{
+                h5{
+                    margin-top: -16px;
+                }
+            }
+        }
+        &:hover{
+            background: $transparent-btn-bg;
+            .my-btn{
+                background: $transparent-btn-bg !important;
+                color: $purple-text-color !important;
+                border: 2px solid $btn-primary-bg;
+            }
+        }
+    }
+}
+
+#creators{
+ 
+    h4{
+        color: white;
+    }
+    .my-card{
+        border-radius: 10px;
+        margin-block: 10px;
+        .my-btn{
+            background: $btn-primary-bg;
+            border: 2px solid transparent !important;
+        }
+        transition: 0.3s;
+        background:$main-cards-bg;
+        $box-shadow: rgba(0, 0, 0, 0.25); 
+        .info-content{
+            h5{
+                color:  $just-white;
+            }
+            .right{
+                h5{
+                    margin-top: -16px;
+                }
+            }
+        }
+        &:hover{
+            background: $transparent-btn-bg;
+            $box-shadow: rgba(0, 0, 0, 0.25);
+            .my-btn{
+                background: $transparent-btn-bg !important;
+                color: $purple-text-color !important;
+                border: 2px solid $btn-primary-bg;
+            }
+        }
+    }
+    .content{
+        transform: translateY(-50px);
+    }
+  
+
+}
+
+
+#faq{
+    h1{
+        font-weight: bold;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+    p{
+        width: max-content;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .accordion-item , .accordion-header , .accordion-button{
+        background: transparent !important;
+        color: rgba(255, 255, 255, 0.5) !important;
+        border: none !important;
+    }
+    .accordion-header{
+        margin-top: 50px;
+    }
+    
+    .accordion-item {
+        border-bottom: 2px solid white !important;
+    }
+    .big-card{
+        border-radius: 10px;
+        width: 100%;
+        min-height: 320px;
+        background: $btn-primary-bg !important;
+        margin-top: 70px;
+        h1{
+            line-height: 1.5;
+        }
+        .my-btn{
+            margin-top: 20px;
+            background: silver;
+            width: max-content !important;
+        }
+    }
+}
+
+footer{
+    h4{
+        color: $just-white;
+    }
+    p{
+        font-size: 14px;
+    }
+    ul{
+        list-style-type: none;
+        a,i{
+            color: $main-color !important;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        .main-link{
+            color: $just-white !important;
+            font-weight: bold;
+        }
+    }
+
+
+}

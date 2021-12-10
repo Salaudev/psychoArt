@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,400&display=swap");
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+  font-family: "Poppins", sans-serif;
+}
+
+.my-card {
+  border-radius: 10px !important;
+}
+
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #fff;
+}
+
+a, button {
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.art {
+  color: #b75cff;
+}
+
+#header {
+  min-height: 100px;
+}
+#header .my_nav {
+  display: flex;
+  justify-content: space-between !important;
+}
+#header .my_nav .my-btn {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+#header a, #header button {
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin-bottom: 150px !important;
+}
+
+#home {
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+}
+#home table {
+  margin-top: 30px;
+  width: 100%;
+}
+#home table h3 {
+  color: #fff;
+  font-weight: bold;
+}
+#home table p {
+  font-size: 14px;
+}
+#home .my-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#home .my-btn:hover {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+#home .mygallery {
+  width: 100%;
+  gap: 15px;
+}
+#home .mygallery .block {
+  width: 30%;
+  gap: 15px;
+}
+
+#about {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+#about h1 {
+  font-weight: bold;
+  max-width: max-content;
+}
+#about p {
+  max-width: max-content;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.5);
+}
+#about button {
+  text-align: left;
+  color: #fff;
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+
+#collection .my-btn {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#collection .my-btn:hover {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+#collection .my-card {
+  border-radius: 10px;
+  margin-block: 10px;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.1);
+}
+#collection .my-card .my-btn {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border: 2px solid transparent !important;
+}
+#collection .my-card .info-content h5 {
+  color: #fff;
+}
+#collection .my-card .info-content .right h5 {
+  margin-top: -16px;
+}
+#collection .my-card:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+#collection .my-card:hover .my-btn {
+  background: rgba(255, 255, 255, 0.5) !important;
+  color: #b75cff !important;
+  border: 2px solid linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+
+#features {
+  margin-top: 100px;
+}
+#features .my-card {
+  border-radius: 10px;
+  margin-block: 10px;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.1);
+}
+#features .my-card .my-btn {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border: 2px solid transparent !important;
+}
+#features .my-card .info-content h5 {
+  color: #fff;
+}
+#features .my-card .info-content .right h5 {
+  margin-top: -16px;
+}
+#features .my-card:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+#features .my-card:hover .my-btn {
+  background: rgba(255, 255, 255, 0.5) !important;
+  color: #b75cff !important;
+  border: 2px solid linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+
+#creators h4 {
+  color: white;
+}
+#creators .my-card {
+  border-radius: 10px;
+  margin-block: 10px;
+  transition: 0.3s;
+  background: rgba(255, 255, 255, 0.1);
+}
+#creators .my-card .my-btn {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border: 2px solid transparent !important;
+}
+#creators .my-card .info-content h5 {
+  color: #fff;
+}
+#creators .my-card .info-content .right h5 {
+  margin-top: -16px;
+}
+#creators .my-card:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+#creators .my-card:hover .my-btn {
+  background: rgba(255, 255, 255, 0.5) !important;
+  color: #b75cff !important;
+  border: 2px solid linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+#creators .content {
+  transform: translateY(-50px);
+}
+
+#faq h1 {
+  font-weight: bold;
+  max-width: max-content;
+  margin: 0 auto;
+}
+#faq p {
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#faq .accordion-item, #faq .accordion-header, #faq .accordion-button {
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  border: none !important;
+}
+#faq .accordion-header {
+  margin-top: 50px;
+}
+#faq .accordion-item {
+  border-bottom: 2px solid white !important;
+}
+#faq .big-card {
+  border-radius: 10px;
+  width: 100%;
+  min-height: 320px;
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%) !important;
+  margin-top: 70px;
+}
+#faq .big-card h1 {
+  line-height: 1.5;
+}
+#faq .big-card .my-btn {
+  margin-top: 20px;
+  background: silver;
+  width: max-content !important;
+}
+
+footer h4 {
+  color: #fff;
+}
+footer p {
+  font-size: 14px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul a, footer ul i {
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+footer ul .main-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
